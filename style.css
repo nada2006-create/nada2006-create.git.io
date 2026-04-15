@@ -1,12 +1,20 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body{
     background: rgb(20, 51, 20) url(WhatsApp\ Image\ 2026-04-13\ at\ 10.56.37\ AM\ \(2\).jpeg) no-repeat;
-    background-size: cover;
+    background-size: cover !important;
     background-position: center;
+    background-attachment: fixed;
     min-height: 100hv;
+    display: flex;
+    flex-direction: column;
     color: rgb(254, 255, 255);
     animation:move 5s linear infinite;
     font-size: 14px;
-    margin: 0;
+    
 }
 @keyframes move{
     0%{
