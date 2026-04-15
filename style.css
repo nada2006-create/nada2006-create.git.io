@@ -1,4 +1,4 @@
-@media(min-width: 768px){
+@media(min-width: 600px){
     body {font-size: 16px ;}
 }
 body{
@@ -7,7 +7,6 @@ body{
     animation:move 5s linear infinite;
     font-size: 14px;
     max-width: 100%;
-    height: auto;
 }
 @keyframes move{
     0%{
