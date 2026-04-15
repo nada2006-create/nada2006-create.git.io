@@ -107,5 +107,14 @@ form section button:hover{
     background-size: cover;}
     #wel{margin: 20px;
     }
+    .table-container{
+        width: 100%;
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+    table{
+        min-width: 500px;
+        width: 100%;
+    }
 }
 
