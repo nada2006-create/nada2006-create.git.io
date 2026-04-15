@@ -6,6 +6,8 @@ body{
     color: rgb(254, 255, 255);
     animation:move 5s linear infinite;
     font-size: 14px;
+    max-width: 100%;
+    height: auto;
 }
 @keyframes move{
     0%{
