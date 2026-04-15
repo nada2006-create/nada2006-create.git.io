@@ -1,0 +1,96 @@
+@media(min-width: 768px){
+    body {font-size: 16px ;}
+}
+body{
+    background: rgb(20, 51, 20) url(WhatsApp\ Image\ 2026-04-13\ at\ 10.56.37\ AM\ \(2\).jpeg) no-repeat center/cover;
+    color: rgb(254, 255, 255);
+    animation:move 5s linear infinite;
+    font-size: 14px;
+}
+@keyframes move{
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+#wel{
+    text-align: center;
+    margin: 100px;
+}
+#add,.tit,.tac,td{
+    text-align:center;
+}
+.tit{
+    border: solid ;
+}
+.tit:hover{
+    background-color:rgb(20, 51, 20) ;
+}
+ul li a{
+    color:rgb(62, 158, 62);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px ;
+    border: 2px solid rgb(254, 255, 255);
+    background-color: rgb(254, 255, 255);
+    border-radius: 8px;
+}
+ul li a:hover{
+    background-color: rgb(20, 51, 20);
+}
+ul {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 70px;
+}
+table{
+    margin: auto;
+    width: 900px;
+    height: 200px;
+    border-collapse: collapse;  
+}
+table th{
+    color:rgb(20, 51, 20) ;
+    background: rgb(254, 255, 255);
+}
+table ,th ,td{
+    border: 3px solid  ;
+    background:rgb(20, 51, 20) ;
+}
+th,td{
+    padding: 10px;
+}
+form section input{
+    padding: 5px;
+    border-radius: 8px;
+}
+form section textarea{
+    border-radius: 8px;
+    padding: 15px;
+}
+form section{
+    display: inline-block;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(154, 221, 154, 0.189) ;
+}
+form section button{
+    color:rgb(62, 158, 62) ;
+    width: 100px;
+    height: 30px;
+    border-radius:8px ;
+}
+form section button:hover{
+       background-color: rgb(20, 51, 20);
+}
+#contact{
+    line-height: 40px;
+}
+
